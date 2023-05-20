@@ -124,7 +124,7 @@ const Sidebar = () => {
             />
             <Item
               title="Sesiones"
-              to="/form"
+              to="/sessions"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
