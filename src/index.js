@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { Auth0Provider } from '@auth0/auth0-react';
+import LoginButton from './components/LoginButton';
+import Login from './components/Login';
 
 
   const domain = process.env.REACT_APP_AUTH0_DOMAIN
@@ -20,7 +22,9 @@ root.render(
       <Auth0Provider domain={domain} clientId={clientId} authorizationParams={{redirect_uri: window.location.origin
     }} >
 
-        <App />
+      <Login/>
+
+        {/* <App /> */}
 
       </Auth0Provider>
     </BrowserRouter>

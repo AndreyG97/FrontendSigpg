@@ -58,7 +58,7 @@ const Sidebar = () => {
         },
         "& .pro-menu-item.active": {
           color: "#00804e !important",
-        },
+        } 
       }}
     >
 
@@ -102,21 +102,21 @@ const Sidebar = () => {
               Datos
             </Typography>
             <Item
-              title="Manage Team"
+              title="Estudiantes"
               to="/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Contacts Information"
+              title="Docentes"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Invoices Balances"
+              title="Proyectos"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
@@ -128,17 +128,17 @@ const Sidebar = () => {
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
             >
-              Pages
+              Actividades
             </Typography>
             <Item
-              title="Profile Form"
+              title="Sesiones"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Calendar"
+              title="Reportes"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
