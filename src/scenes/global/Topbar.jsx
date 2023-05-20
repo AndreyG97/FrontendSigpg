@@ -18,7 +18,7 @@ const Topbar = () => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <div style={{ display:"flex", backgroundColor:"#00804e", justifyContent:"space-between",  }}>
+    <div style={{ display:"flex", backgroundColor:"#00804e", justifyContent:"space-between",   }}>
     
       {/* SEARCH BAR */}
       <div classname="barra" style={{display:"flex",backgroundColor:colors.primary[400], borderRadius:"3px", height:"30px", alignItems:"center", marginLeft:"10px", marginTop:"8px"}}
@@ -39,7 +39,7 @@ const Topbar = () => {
             
       <img  style={{width: '30px', height: '30px',borderRadius: '50%' }} src={user.picture} alt="" />
       
-      </div> */}
+      </div>  */}
 
 
       {/* ICONS */}
